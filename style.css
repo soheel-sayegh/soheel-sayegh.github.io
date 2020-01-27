@@ -1,5 +1,4 @@
 body {
-  height: 2000px;
   background-image: url(gray.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -182,12 +181,6 @@ body {
   background: #ffc107;
   border-radius: 20px;
   padding: 3px;
-}
-
-@keyframes animate {
-  from {
-    width: 0;
-  }
 }
 
 /*SERVICES*/
