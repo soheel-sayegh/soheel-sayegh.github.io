@@ -59,5 +59,14 @@ $ (function () {
       .html (
         `Umgang mit Inkonsistenzen im Browser, Front-End-Entwicklung für beliebig viele Bildschirmgrößen, Bildschirmorientierungen, Pixeldichten und Eingabetypen. Das Entwickeln einer gewaltigen Landschaft aus verschiedenen Bildschirmen, Browsern und Funktionen hängt von den meisten Front-End-Entwicklungen ab`
       );
+    $ ('div')
+      .find ($ ('h3:contains("My contact")'))
+      .html ('Meine Kontaktdaten .');
+    $ ('div')
+      .find ($ ('h3:contains("You can contact me")'))
+      .html ('Sie können mich kontaktieren <span>per.</span>');
+    $ ('h5')
+      .find ($ ('p:contains("©Design by Soheel Sayegh")'))
+      .html ('©Design von Soheel Sayegh');
   });
 });
