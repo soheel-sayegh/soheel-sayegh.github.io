@@ -14,23 +14,22 @@ $ (function () {
   var current_progress = 0;
   var interval = setInterval (function () {
     current_progress += 1;
-    $ ('.JAVASCRIPT, .REACT')
+    $ ('.JAVASCRIPT, .REACT, .MongoDB ')
       .css ('width', current_progress + '%')
       .attr ('aria-valuenow', current_progress)
       .text (current_progress + '%');
     if (current_progress >= 85) clearInterval (interval);
   }, 30);
 });
-
 $ (function () {
   var current_progress = 0;
   var interval = setInterval (function () {
     current_progress += 1;
-    $ ('.MYSQL')
+    $ ('.w-L')
       .css ('width', current_progress + '%')
       .attr ('aria-valuenow', current_progress)
       .text (current_progress + '%');
-    if (current_progress >= 70) clearInterval (interval);
+    if (current_progress >= 80) clearInterval (interval);
   }, 30);
 });
 
@@ -38,11 +37,34 @@ $ (function () {
   var current_progress = 0;
   var interval = setInterval (function () {
     current_progress += 1;
-    $ ('.NODEJS')
+    $ ('.MYSQL ')
       .css ('width', current_progress + '%')
       .attr ('aria-valuenow', current_progress)
       .text (current_progress + '%');
-    if (current_progress >= 60) clearInterval (interval);
+    if (current_progress >= 70) clearInterval (interval);
+  }, 30);
+});
+$ (function () {
+  var current_progress = 0;
+  var interval = setInterval (function () {
+    current_progress += 1;
+    $ ('.handlebars , .Redux')
+      .css ('width', current_progress + '%')
+      .attr ('aria-valuenow', current_progress)
+      .text (current_progress + '%');
+    if (current_progress >= 50) clearInterval (interval);
+  }, 30);
+});
+
+$ (function () {
+  var current_progress = 0;
+  var interval = setInterval (function () {
+    current_progress += 1;
+    $ ('.NODEJS ')
+      .css ('width', current_progress + '%')
+      .attr ('aria-valuenow', current_progress)
+      .text (current_progress + '%');
+    if (current_progress >= 70) clearInterval (interval);
   }, 30);
 });
 
@@ -65,7 +87,7 @@ $ (function () {
       .css ('width', current_progress + '%')
       .attr ('aria-valuenow', current_progress)
       .text (current_progress + '%');
-    if (current_progress >= 65) clearInterval (interval);
+    if (current_progress >= 70) clearInterval (interval);
   }, 30);
 });
 $ (document).ready (function () {
