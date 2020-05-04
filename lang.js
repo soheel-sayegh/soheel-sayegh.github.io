@@ -27,7 +27,7 @@ $ (function () {
     $ ('div')
       .find ($ ('p:contains("My name is SOHEEL SAYEGH. I am 27 years old")'))
       .html (
-        'Ich heiße SOHEEL SAYEGH. Ich bin 27 Jahre alt. Ich lerne Webentwicklung bei der Digital Career Institute GmbH in Düsseldorf.'
+        'Ich heiße SOHEEL SAYEGH. Ich bin 27 Jahre alt. Ich lernte Webentwicklung bei der Digital Career Institute GmbH in Düsseldorf.'
       );
     $ ('button')
       .find ($ ('span:contains("Download CV")'))
